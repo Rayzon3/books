@@ -1,3 +1,8 @@
+## Tech Stack Used
+- Language: JavaScript
+- Framework: Nextjs
+- Database: MongoDB
+
 ## Getting Started
 
 Install Dependencies:
