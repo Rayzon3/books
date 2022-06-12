@@ -7,6 +7,8 @@ import { getSession, useSession } from "next-auth/react";
 
 const Search = () => {
   const { data: session, status } = useSession();
+  const [search, setSearch] = useState("");
+  const [bookData, setBookData] = useState([]);
 
   if (status === "unauthenticated") {
     return (
@@ -22,8 +24,6 @@ const Search = () => {
     );
   }
 
-  const [search, setSearch] = useState("");
-  const [bookData, setBookData] = useState([]);
 
   const addSearchHandler = async (data) => {
     const formData = {
