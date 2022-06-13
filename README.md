@@ -16,5 +16,7 @@ Run the development server:
 yarn dev
 ```
 
+### Remember to setup environment variables
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
