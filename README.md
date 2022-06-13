@@ -1,6 +1,6 @@
 ## Tech Stack Used
 - Language: JavaScript
-- Framework: Nextjs
+- React Framework: Nextjs
 - Database: MongoDB
 
 ## Getting Started
